@@ -8,6 +8,18 @@ For example, the CustomString class has a “reverse” method which returns a n
 
 The CustomString class also has a “remove” method which returns a new string version of the current string where the alphabetical characters specified in a given argument, are removed. For CustomString "my lucky numbers are 6, 8, and 19.", calling remove("ra6") will return "my lucky numbers e 6, 8, nd 19.".
 
+There are 5 methods that need to be implemented in the CustomString class:
+
+- getString() - Returns the current string.
+- setString(String string) - Sets the value of the current string.
+- remove(String arg) - Returns a new string version of the current string where the
+alphabetical characters specified in the given arg, are removed.
+- reverse(String arg) - Returns a new string version of the current string where the
+capitalization is reversed (i.e., lowercase to uppercase, and uppercase to lowercase) for
+the alphabetical characters specified in the given arg.
+- filterLetters(char n, boolean more) - Returns a new string version of the current string
+where all the letters either >= or <= the given char n, are removed.
+
 # CODE - SOLUTION
 You can find the script right here on this repository.
 
